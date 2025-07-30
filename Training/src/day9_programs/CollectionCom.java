@@ -21,8 +21,7 @@ public class CollectionCom implements Comparable<CollectionCom>{
 	}
 	
 	public static void main(String[] args) {
-		List<CollectionCom> a = Arrays.asList(new CollectionCom("Sumit",24),
-				new CollectionCom("Naman",25));
+		List<CollectionCom> a = Arrays.asList(new CollectionCom("Sumit",27),new CollectionCom("Naman",25));
 		Collections.sort(a);
 		System.out.println(a);
 	}
